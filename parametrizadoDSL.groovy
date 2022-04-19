@@ -36,3 +36,5 @@ job('ejemplo2-job-DSL') {
 		  teamDomain(null)
 		  authToken(null)
         	}
+	}
+}
