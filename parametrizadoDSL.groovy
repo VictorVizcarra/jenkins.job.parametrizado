@@ -19,7 +19,7 @@ job('ejemplo-job-DSL-2') {
     	}
   	publishers {
       		mailer('vizcarraunison1@gmail.com', true, true)
-      		slackNotifier {
+      			slackNotifier {
 		  notifyAborted(true)
 		  notifyEveryFailure(true)
 		  notifyNotBuilt(false)
