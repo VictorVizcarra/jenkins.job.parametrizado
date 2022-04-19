@@ -3,7 +3,7 @@ job('ejemplo2-job-DSL') {
   	scm {
       		git('https://github.com/VictorVizcarra/jenkins.job.parametrizado.git', 'main') { node ->
         		node / gitConfigName('VictorVizcarra')
-        		node / gitConfigEmail('victormjvizcarra@gmail.com')
+        		node / gitConfigEmail('vizcarraunison1@gmail.com')
       		}
     	} 
   	parameters {
