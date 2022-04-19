@@ -37,4 +37,3 @@ job('ejemplo2-job-DSL') {
 		  authToken(null)
         	}
     	}
-}
